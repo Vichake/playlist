@@ -19,7 +19,7 @@ let lists = [
     },
     {
         id: uuid(),
-        name : 'Kesariya',
+        name : 'Stree 2',
         author: 'Sachin-Jigar, Sachet Tandon, Asees Kaur, Amitabh Bhattacharya',
         photo : 'https://pagalfree.com/images/128Aaj%20Ki%20Raat%20-%20Stree%202%20128%20Kbps.jpg',
         path: 'https://pagalfree.com/musics/128-Aaj%20Ki%20Raat%20-%20Stree%202%20128%20Kbps.mp3'
