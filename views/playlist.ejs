@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%=title%></title>
+</head>
+<body>
+    <h1>Here is your playlists</h1>
+    <% for(let song of list) { %>
+
+        <div class="song">
+            <h2 class="song-name"><%=song.name%></h2>
+            <p class="song-author">song by <b><%=song.author%></b></p>
+            <a href="/playlist/<%=song.id%>/more">Know more</a>
+            <form action="/playlist/<%=song.id%>?_method=DELETE" method="post">
+                <button>Remove Song</button>
+            </form>
+        </div>
+    <%}%>
+    <button class="add-song-button">
+        <a href="/playlist/new">Add new song</a>
+    </button>
+</body>
+</html>

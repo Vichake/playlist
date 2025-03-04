@@ -1,0 +1,103 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.song {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.song-name {
+    font-size: 1.8em;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.song-author {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff7875;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+
+.add-song-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.add-song-button:hover {
+    background-color: #218838;
+}
+
+.add-song-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.add-song-button a:hover {
+    text-decoration: none;
+}
